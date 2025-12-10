@@ -148,6 +148,9 @@ Modify the `conference_id` in the configuration file. Common ID examples:
   * **ICLR**: `ICLR.cc/2025/Conference`
   * **NeurIPS**: `NeurIPS.cc/2023/Conference`
   * **ICML**: `ICML.cc/2024/Conference`
+  * **ACL**: `aclweb.org/ACL/2025/Conference`
+  * **AAAI**: `AAAI.org/2025/Conference`
+  * **EMNLP**: `EMNLP/2025/Conference`
 
 > **Suggestion**: Verify the exact ID of the target conference on the [OpenReview](https://openreview.net/) website.
 

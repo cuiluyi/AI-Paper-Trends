@@ -76,7 +76,7 @@
 
 ```bash
 # 克隆仓库
-git clone [https://github.com/zhihengli-casia/AI-Paper-Trends.git](https://github.com/zhihengli-casia/AI-Paper-Trends.git)
+git clone git@github.com:cuiluyi/AI-Paper-Trends.git
 cd AI-Paper-Trends
 
 # 1. 创建 Conda 环境 (推荐 Python 3.10)
@@ -148,6 +148,9 @@ python main.py --config configs/iclr_2025_analysis.yaml
   * **ICLR**: `ICLR.cc/2025/Conference`
   * **NeurIPS**: `NeurIPS.cc/2023/Conference`
   * **ICML**: `ICML.cc/2024/Conference`
+  * **ACL**: `aclweb.org/ACL/2025/Conference`
+  * **AAAI**: `AAAI.org/2025/Conference`
+  * **EMNLP**: `EMNLP/2025/Conference`
 
 > **建议**: 在 [OpenReview](https://openreview.net/) 官网确认目标会议的准确 ID。
 
