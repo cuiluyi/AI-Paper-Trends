@@ -42,11 +42,12 @@ def main():
 
     output_folder_name = config.get('output_folder_name', 'default_analysis')
     output_dir = Path("results") / output_folder_name
-    data_raw_dir = Path("data/raw")
-    data_processed_dir = Path("data/processed")
-    
     output_dir.mkdir(parents=True, exist_ok=True)
     print(f"Results will be saved to: {output_dir}")
+    data_raw_dir = Path("data/raw")
+    data_raw_dir.mkdir(parents=True, exist_ok=True)
+    data_processed_dir = Path("data/processed")
+    data_processed_dir.mkdir(parents=True, exist_ok=True)
 
     expected_paths = get_expected_filepaths(config, data_raw_dir, data_processed_dir)
     raw_data_path = expected_paths['raw']
