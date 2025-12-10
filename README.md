@@ -76,7 +76,7 @@ It is recommended to use Conda for environment creation and `pip` for installing
 
 ```bash
 # Clone the repository
-git clone [https://github.com/zhihengli-casia/AI-Paper-Trends.git](https://github.com/zhihengli-casia/AI-Paper-Trends.git)
+git clone git@github.com:cuiluyi/AI-Paper-Trends.git
 cd AI-Paper-Trends
 
 # 1. Create a new Conda environment (Python 3.10 recommended)
