@@ -80,7 +80,7 @@ git clone git@github.com:cuiluyi/AI-Paper-Trends.git
 cd AI-Paper-Trends
 
 # 1. Create a new Conda environment (Python 3.10 recommended)
-conda create --name ai-trend-analysis python=3.10
+conda create --name ai-trend-analysis python=3.10 -y
 
 # 2. Activate the newly created environment
 conda activate ai-trend-analysis
